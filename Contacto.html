@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>RRHH ARA</title>
+    <link rel="stylesheet" href="Contacto.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Dirección del Personal!</p>
+            <nav>
+                 <a href=" ./index.html"> Inicio</a>
+                 <a href=" ./Novedades.html"> Novedades</a>            
+                </nav>
+
+        </div>
+    </header>
+
+<form id="formulario-contacto" method="post" action="enviar.php">
+    <h4>Formulario de contacto</h4>
+    <div class="formulario-item">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div class="formulario-item">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+    </div>
+    <div class="formulario-item">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+    </div>
+    <div class="formulario-item">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+    </div>
+    <div class="formulario-item">
+        <button type="submit">Enviar</button>
+    </div>
+</form>
+
+
+      <footer>
+        <div class="container">
+            <p>&copy; RRHH 2025</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
